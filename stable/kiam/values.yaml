@@ -150,6 +150,10 @@ server:
     #   hostPath: /usr/share/ca-certificates
     #   readOnly: true
 
+  ## Whether to use host networking for the server
+  ##
+  hostNetwork: false
+
   service:
     port: 443
     targetPort: 443
